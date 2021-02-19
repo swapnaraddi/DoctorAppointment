@@ -29,6 +29,8 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   date_picker_timeline: ^1.2.1
+  flutter_sound: ^7.7.0+1
+  #image_picker: ^0.6.7+17
 
 
 dev_dependencies:

@@ -1,6 +1,7 @@
+import 'package:doctor_appointment/patient_details.dart';
 import 'package:flutter/material.dart';
 
-import 'doctor_details.dart';
+import 'audio_recorder.dart';
 
 void main() {
   runApp(MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DoctorDetails(),
+      home: PatientDetails(),
     );
   }
 }

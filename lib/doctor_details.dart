@@ -86,7 +86,7 @@ class _DoctorDetailsState extends State<DoctorDetails> {
             ),
           ),
           title: Text(
-            "Welcome Dr.sciliaris",
+            "Welcome Dr.Sciliaris",
             style: TextStyle(
                 color: Colors.white,
                 fontSize: 18.0,
@@ -178,13 +178,13 @@ class _DoctorDetailsState extends State<DoctorDetails> {
                                       mainAxisAlignment:
                                       MainAxisAlignment.center,
                                       children: [
-                                        // Text(
-                                        //   "HEMA 54-DEAN (4)",
-                                        //   textAlign: TextAlign.center,
-                                        //   style: TextStyle(
-                                        //       fontWeight: FontWeight.bold,
-                                        //       fontSize: 18.0),
-                                        // )
+                                        Text(
+                                          "HEASC 54-DEAN (4)",
+                                          textAlign: TextAlign.center,
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 18.0),
+                                        )
                                       ],
                                     ),
                                     appointmentData != null &&
